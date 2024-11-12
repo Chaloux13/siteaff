@@ -7,7 +7,7 @@ title: Accueil
 
 Vous cherchez des opportunités d'affiliation ? Vous êtes au bon endroit !
 
-Voici quelques-unes des meilleures opportunités d'affiliation pour démarrer votre propre business en ligne.
+Voici quelques-unes des meilleures opportunités d'affiliation pour démarrer votre propre business en ligne. 
 
 ## Nos offres d'affiliation
 
