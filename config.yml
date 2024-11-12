@@ -1,0 +1,62 @@
+# _config.yml
+
+# Titre du site
+title: "Mon Site d'Affiliation"
+description: "Bienvenue sur mon site d'affiliation ! Profitez des meilleures offres."
+baseurl: "" # Laissez vide pour un site à la racine
+url: "https://votre-nom-utilisateur.github.io/mon-site-jekyll"  # Remplacez par l'URL de votre dépôt GitHub
+
+# Choix du thème
+theme: minima  # Utilisation du thème 'minima' par défaut
+
+# Paramètres de publication
+markdown: kramdown  # Définit le format Markdown à utiliser (kramdown est le format par défaut de Jekyll)
+
+# Permaliens pour les pages de votre blog
+permalink: /:year/:month/:day/:title/
+
+# Permet d'inclure ou d'exclure certains fichiers/dossiers lors de la publication
+exclude:
+  - README.md  # Ce fichier est ignoré lors du déploiement
+  - LICENSE.md
+
+# Permet de personnaliser les URL des catégories et des tags
+collections:
+  # Vous pouvez ajouter des collections personnalisées comme 'articles', 'projets', etc.
+  # Cela vous permet de créer des pages dynamiques basées sur des catégories
+
+# Paramètres de l'auteur
+author:
+  name: "Votre Nom"
+  email: "votre-email@example.com"
+  url: "https://votre-url-personnelle.com" # Facultatif
+
+# Paramètres GitHub Pages
+# Vous pouvez définir l'option 'github-pages' pour utiliser la version optimisée pour GitHub Pages
+plugins:
+  - jekyll-feed  # Pour générer un flux RSS
+  - jekyll-seo-tag  # Pour ajouter des balises SEO automatiques à chaque page
+
+# Paramètres pour Google Analytics (facultatif)
+# analytics:
+#   google_analytics: "UA-XXXXXXXXX-X" # Remplacez par votre ID Google Analytics
+
+# Paramètres de cache (si nécessaire)
+# cache: true
+
+# Paramètres de RSS (généralement activé par défaut)
+feed:
+  path: "atom.xml"
+
+# Configuration du site localement
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Votre Nom"
+
+# Configurations supplémentaires pour améliorer l'accessibilité et la performance
+# Vous pouvez ajouter des plugins ou des outils comme Disqus ou un générateur de sitemap.
+
