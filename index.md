@@ -11,8 +11,8 @@ Voici quelques-unes des meilleures opportunités d'affiliation pour démarrer vo
 
 ## Nos offres d'affiliation
 
-- **Produit 1** : Description du produit
-- **Produit 2** : Description du produit
+- **Produit 1** : PRETE A CHANGER?
+- **Produit 2** : CLIC HERE
 
 **Rejoignez-nous** pour commencer à promouvoir ces produits et gagner de l'argent en ligne.
 
